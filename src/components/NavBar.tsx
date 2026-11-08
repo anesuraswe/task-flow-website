@@ -15,7 +15,7 @@ const NavBar = () => {
       zIndex={1000}
     >
       <Flex align="center" justify="space-between">
-        <Image src={logo} px={4}/>
+        <Image src={logo} px={4} />
         <HStack gap={8} display={{ base: "none", md: "flex" }}>
           {navItems.map((item) => (
             <Link
