@@ -1,9 +1,8 @@
+import { Heading } from "@chakra-ui/react"
 
 const Testimonials = () => {
   return (
-    <div>
-      
-    </div>
+    <Heading>Testimonials</Heading>
   )
 }
 

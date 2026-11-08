@@ -1,9 +1,10 @@
+import { Heading } from "@chakra-ui/react"
 
 const Features = () => {
   return (
-    <div>
-      
-    </div>
+    <Heading>
+      Features
+    </Heading>
   )
 }
 

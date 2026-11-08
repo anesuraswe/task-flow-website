@@ -1,9 +1,8 @@
+import { Heading } from "@chakra-ui/react"
 
 const Pricing = () => {
   return (
-    <div>
-      
-    </div>
+    <Heading>Pricing Section</Heading>
   )
 }
 

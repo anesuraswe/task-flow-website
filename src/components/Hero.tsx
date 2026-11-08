@@ -1,9 +1,9 @@
-
+import { Heading } from "@chakra-ui/react"
 const Hero = () => {
   return (
-    <div>
-      
-    </div>
+    <Heading>
+      Hero Section
+    </Heading>
   )
 }
 

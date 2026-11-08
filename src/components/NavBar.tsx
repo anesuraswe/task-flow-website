@@ -1,9 +1,8 @@
+import { Heading } from "@chakra-ui/react"
 
 const NavBar = () => {
   return (
-    <div>
-      
-    </div>
+    <Heading>Navigation</Heading>
   )
 }
 
