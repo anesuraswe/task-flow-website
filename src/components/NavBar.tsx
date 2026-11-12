@@ -57,7 +57,7 @@ const NavBar = () => {
                 color="gray.800"
                 letterSpacing="tight"
               >
-                Task<Text as="span" color="blue.600">Flow</Text>
+                Task<Text as="span" color="blue.800">Flow</Text>
               </Text>
             </HStack>
           </Link>
@@ -76,7 +76,7 @@ const NavBar = () => {
                 color="gray.600"
                 transition="all 0.2s"
                 _hover={{
-                  color: "blue.600",
+                  color: "blue.800",
                   textDecoration: "none",
                 }}
               >

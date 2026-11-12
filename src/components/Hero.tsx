@@ -22,7 +22,7 @@ const Hero = () => {
       gap={10}
       px={{ base: 6, md: 16 }}
       py={16}
-      bg="gray.50"
+      bg="white"
     >
       {/* Hero Content */}
       <VStack align="start" gap={6} flex="1" maxW="600px">
@@ -50,11 +50,11 @@ const Hero = () => {
         </Text>
 
         <HStack gap={4} flexWrap="wrap">
-          <Button colorPalette="blue" size="xl">
+          <Button  >
             Get Started
           </Button>
 
-          <Button variant="outline" size="xl">
+          <Button variant="outline" >
             Learn More
           </Button>
         </HStack>
