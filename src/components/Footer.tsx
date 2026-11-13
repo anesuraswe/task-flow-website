@@ -45,7 +45,7 @@ const Footer = () => {
           <VStack align="start" gap={4}>
             <HStack gap={2}>
               <Box
-                bg="blue.600"
+                
                 p={2}
                 borderRadius="lg"
               >
@@ -126,7 +126,7 @@ const Footer = () => {
                   color="gray.400"
                   fontSize="sm"
                   _hover={{
-                    color: "blue.400",
+                    color: "white",
                     textDecoration: "none",
                   }}
                 >
@@ -155,7 +155,7 @@ const Footer = () => {
               display="flex"
               alignItems="center"
               gap={2}
-              _hover={{ color: "blue.300" }}
+              _hover={{ color: "white" }}
             >
               hello@taskflow.com
               <ArrowUpRight size={16} />
