@@ -135,7 +135,7 @@ const NavBar = () => {
             ))}
 
             <Button
-              colorPalette="blue"
+              
               width="100%"
               onClick={() => setIsOpen(false)}
             >
