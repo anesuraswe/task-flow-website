@@ -27,7 +27,7 @@ const NavBar = () => {
       boxShadow="0 2px 15px rgba(0,0,0,0.06)"
       borderBottom="1px solid"
       borderColor="gray.100"
-      borderRadius="full"
+      borderRadius={{ base: isOpen ? "none" : "full", md: "full" }}
       my={3}
       
     >
@@ -98,7 +98,7 @@ const NavBar = () => {
             Get Started
           </Button>
 
-          {/* Mobile Menu Button */}
+          
           <IconButton
             display={{ base: "inline-flex", md: "none" }}
             variant="ghost"
@@ -109,14 +109,17 @@ const NavBar = () => {
           </IconButton>
         </Flex>
 
-        {/* Mobile Navigation */}
+        
         {isOpen && (
+
           <VStack
             display={{ base: "flex", md: "none" }}
             align="stretch"
             gap={4}
             pb={6}
+            
           >
+            
             {navItems.map((item) => (
               <Link
                 key={item.label}
@@ -142,6 +145,7 @@ const NavBar = () => {
               Get Started
             </Button>
           </VStack>
+         
         )}
       </Box>
     </Box>
