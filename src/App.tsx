@@ -8,7 +8,7 @@ import Reveal from "./components/Reveal";
 
 function App() {
   return (
-    
+     <>
       <NavBar />
 
       <Reveal>
@@ -26,7 +26,7 @@ function App() {
       <Reveal>
         <Footer />
       </Reveal>
-    
+   </>
   );
 }
 
