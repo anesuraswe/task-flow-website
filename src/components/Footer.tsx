@@ -8,17 +8,9 @@ import {
   SimpleGrid,
 } from "@chakra-ui/react";
 
-import {
-  FaGithub,
-  FaLinkedin,
-  FaXTwitter,
-} from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
-import {
-  ListChecks,
-  Mail,
-  ArrowUpRight,
-} from "lucide-react";
+import { ListChecks, Mail, ArrowUpRight } from "lucide-react";
 
 import { navItems } from "../data";
 
@@ -33,43 +25,32 @@ const Footer = () => {
       px={{ base: 5, md: 16 }}
     >
       <Box maxW="1200px" mx="auto">
-
         {/* Main Footer Content */}
-        <SimpleGrid
-          columns={{ base: 1, md: 3 }}
-          gap={12}
-          pb={12}
-        >
-
+        <SimpleGrid columns={{ base: 1, md: 3 }} gap={12} pb={12}>
           {/* Brand Information */}
           <VStack align="start" gap={4}>
             <HStack gap={2}>
-              <Box
-                
-                p={2}
-                borderRadius="lg"
-              >
+              <Box p={2} borderRadius="lg">
                 <ListChecks size={25} color="white" />
               </Box>
 
               <Text fontSize="2xl" fontWeight="bold">
-                Task<Text as="span" color="blue.400">Flow</Text>
+                Task
+                <Text as="span" color="blue.400">
+                  Flow
+                </Text>
               </Text>
             </HStack>
 
-            <Text
-              color="gray.400"
-              lineHeight="1.8"
-              maxW="300px"
-            >
-              Simplify your workflow, manage your projects,
-              and achieve more with TaskFlow.
+            <Text color="gray.400" lineHeight="1.8" maxW="300px">
+              Simplify your workflow, manage your projects, and achieve more
+              with TaskFlow.
             </Text>
 
             {/* Social Media Links */}
             <HStack gap={4} pt={2}>
               <Link
-                href="https://github.com"
+                href="https://github.com/anesuraswe"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -80,7 +61,7 @@ const Footer = () => {
               </Link>
 
               <Link
-                href="https://linkedin.com"
+                href="www.linkedin.com/in/anesu-nyamajiwa-123a49265"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -91,7 +72,7 @@ const Footer = () => {
               </Link>
 
               <Link
-                href="https://twitter.com"
+                href="https://x.com/anesunyamajiwa1"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Twitter"
@@ -102,7 +83,7 @@ const Footer = () => {
               </Link>
 
               <Link
-                href="mailto:hello@taskflow.com"
+                href="mailto:ane.uraswe@gmail.com"
                 aria-label="Email"
                 color="gray.400"
                 _hover={{ color: "white" }}
@@ -143,8 +124,7 @@ const Footer = () => {
             </Text>
 
             <Text color="gray.400" fontSize="sm">
-              Have questions or need assistance?
-              We'd love to hear from you.
+              Have questions or need assistance? We'd love to hear from you.
             </Text>
 
             <Link
@@ -161,15 +141,10 @@ const Footer = () => {
               <ArrowUpRight size={16} />
             </Link>
           </VStack>
-
         </SimpleGrid>
 
         {/* Divider */}
-        <Box
-          borderTop="1px solid"
-          borderColor="gray.700"
-          pt={6}
-        >
+        <Box borderTop="1px solid" borderColor="gray.700" pt={6}>
           <Flex
             justify="space-between"
             align={{ base: "start", md: "center" }}
@@ -177,8 +152,7 @@ const Footer = () => {
             gap={4}
           >
             <Text color="gray.500" fontSize="sm">
-              © {new Date().getFullYear()} TaskFlow.
-              All rights reserved.
+              © {new Date().getFullYear()} TaskFlow. All rights reserved.
             </Text>
 
             <HStack gap={6}>
@@ -202,7 +176,6 @@ const Footer = () => {
             </HStack>
           </Flex>
         </Box>
-
       </Box>
     </Box>
   );
